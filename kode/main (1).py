@@ -547,7 +547,7 @@ class MenuScreen(Screen):
         # Tombol Menu (3 Lines / Top Left) - ACTS AS CLOSE/BACK BUTTON
         menu_btn = ImageButton(
             image_path=self.gambar_menu_path,
-            text="TUTUP",
+            text="MENU",
             size_hint=(0.1, 0.08),
             # DIPERBAIKI: Menggunakan x: 0.02 dan top: 0.98 untuk pojok kiri atas
             pos_hint={'x': 0.02, 'top': 0.98}, 
